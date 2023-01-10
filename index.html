@@ -161,8 +161,8 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Review</h5>
-
+                            <h5 class="card-title text-center border-bottom">Review</h5>
+                            
                             <p class="card-text"><span class="font-weight-bold">My Rating: </span><span>4/5</span> </p>
                             <p class="card-text"><span class="font-weight-bold">Genre: </span><span>Country Pop</span>
                             </p>
@@ -193,14 +193,14 @@
                 </div>
 
             </div>
-            <h2 class="h2 mt-5 text-center" id="worst"> Worst Albums <button class="btn btn-secondary float-right" id="btn-toogle">Toggle 
+            <h2 class="h2 mt-5 text-center" id="worst"> Worst Albums <button class="btn btn-secondary float-right mr-3" data-toggle="collapse" href="#dislike-section" role="button" aria-expanded="false" aria-controls="dislike-section">Toggle 
                      </button></h2>
-            <div class="container">
+            <div class="container collapse" id="dislike-section">
 
-                <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 my-4">
-                    <div class="col  mb-5">
+                <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2 my-4">
+                    <div class="col mb-5">
 
-                        <div class="card toogle">
+                        <div class="card">
                             <img src="https://www.billboard.com/wp-content/uploads/2022/03/29.-Aretha-Franklin-%E2%80%98I-Never-Loved-a-Man-the-Way-I-Loved-You-1967-album-art-billboard-1240.jpg?w=1024"
                                 class="card-img-top" alt="Hollywood Sign on The Hill">
                             <div class="card-body">
@@ -212,7 +212,7 @@
                     </div>
                     <div class="col">
 
-                        <div class="card toogle">
+                        <div class="card">
                             <img src="https://www.billboard.com/wp-content/uploads/2022/03/22.-Drake-If-Youre-Reading-This-Its-Too-Late-2015-album-art-billboard-1240.jpg?w=1024"
                                 class="card-img-top" alt="Palm Springs Road">
                             <div class="card-body">
@@ -224,7 +224,7 @@
                     </div>
                     <div class="col">
 
-                        <div class="card toogle">
+                        <div class="card">
 
                             <img src="https://www.billboard.com/wp-content/uploads/2022/03/48.-Lady-Gaga-%E2%80%98The-Fame-Monster-2009-album-art-billboard-1240.jpg?w=1024"
                                 class="card-img-top" alt="Los Angeles Skyscrapers">
@@ -237,7 +237,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card toogle">
+                        <div class="card">
                             <img src="https://www.billboard.com/wp-content/uploads/2022/03/33.-Kanye-West-%E2%80%98My-Beautiful-Dark-Twisted-Fantasy-2010-album-art-billboard-1240.jpg?w=1024"
                                 class="card-img-top" alt="Skyscrapers">
                             <div class="card-body">
@@ -393,6 +393,8 @@
             </div>
 
 
+            
+
 
             <footer class="container p-4 rounded mt-5">
                 <hr>
@@ -414,9 +416,8 @@
                 </div>
             </footer>
 
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-                integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-                crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
             <script src="script.js"></script>
 </body>
 
