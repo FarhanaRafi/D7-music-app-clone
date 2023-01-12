@@ -5,6 +5,15 @@ body{
     height: 347px;
     object-fit: cover;
 }
+nav{
+    font-family: 'Caveat', cursive;  
+}
+
+#nav-logo{
+    font-size: 30px;
+    color: rgb(0, 179, 255);
+}
+
 .jumbotron{
 background-image: url("https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/best%20websites%20for%20free%20music1640190686306255.jpg");
 object-fit: cover;
@@ -143,4 +152,17 @@ tr :hover .delete-btn {
     visibility: visible;
     opacity: 1;
     transition: 0.8s;
+  }
+  .badge-img{
+    position: relative;
+  }
+  #badge-green{
+    height: 13px;
+    width: 13px;
+    background-color: rgb(54, 194, 61);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 9px;
+    z-index: 2;
   }
