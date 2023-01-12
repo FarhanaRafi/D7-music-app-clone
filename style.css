@@ -1,9 +1,12 @@
+body{
+    background-image: url("https://images.wallpaperscraft.com/image/single/heart_melody_music_light_88521_1024x768.jpg");
+}
 #img-height {
     height: 347px;
     object-fit: cover;
 }
 .jumbotron{
-background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_626660256_2000108620009280158_388846.jpg");
+background-image: url("https://cdn.pixabay.com/index/2022/10/11/19-18-22-858_1440x550.jpg");
 object-fit: cover;
 font-family: 'Caveat', cursive;
 height: 70vh;
@@ -121,7 +124,7 @@ transform: rotate(-20deg)
 
 #button {
     background-color: black;
-    border: transparent
+    border: transparent;
     border-radius: 50px;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
@@ -130,4 +133,14 @@ transform: rotate(-20deg)
   #button:hover {
     box-shadow: 0 0 10px 0 #d3efec inset, 0 0 20px 2px #2d4240;
 
+  }
+
+  .delete-btn{
+    visibility: hidden;
+    opacity: 0;
+  }
+tr :hover .delete-btn {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.8s;
   }

@@ -30,10 +30,11 @@ function deleteRow(event) {
 }
 
 function addTrack() {
-  let trackNum = document.getElementById("track-num");
-  let trackName = document.getElementById("track-name");
-  let artist = document.getElementById("artist");
-  let duration = document.getElementById("track-duration");
+  let trackNum = document.getElementById("track-num").value;
+  let trackName = document.getElementById("track-title").value;
+  let artist = document.getElementById("artist-name").value;
+  let duration = document.getElementById("track-duration").value;
+  let deleteBtn = document.querySelector(".delete-btn");
 
   let tableRef = document.getElementById("tracks");
 
@@ -45,25 +46,37 @@ function addTrack() {
 
   // Append a text node to the cell
   let newText = document.createTextNode(trackNum);
-  newCell.appendChild(newText);
 
-  let newCell2 = newRow.insertCell(0);
+  newCell.appendChild(newText);
+  // newText.classList.add("h5");
+
+  let newCell2 = newRow.insertCell(1);
 
   // Append a text node to the cell
   let newText2 = document.createTextNode(trackName);
-  newCell.appendChild(newText2);
+  newCell2.appendChild(newText2);
 
-  let newCell3 = newRow.insertCell(0);
+  let newCell3 = newRow.insertCell(2);
 
   // Append a text node to the cell
   let newText3 = document.createTextNode(artist);
-  newCell.appendChild(newText3);
+  newCell3.appendChild(newText3);
 
-  let newCell4 = newRow.insertCell(0);
+  let newCell4 = newRow.insertCell(3);
 
   // Append a text node to the cell
   let newText4 = document.createTextNode(duration);
-  newCell.appendChild(newText4);
+  newCell4.appendChild(newText4);
+
+  let newCell5 = newRow.insertCell(4);
+
+  // Append a text node to the cell
+
+  newCell5.appendChild(deleteBtn.cloneNode(true));
+
+  document.getElementById("exampleModal").classList.remove("show");
+
+  alert(`Track ${trackName} is added`);
 }
 
 window.onload = onLoad();
