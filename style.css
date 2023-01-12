@@ -6,7 +6,7 @@ body{
     object-fit: cover;
 }
 .jumbotron{
-background-image: url("https://cdn.pixabay.com/index/2022/10/11/19-18-22-858_1440x550.jpg");
+background-image: url("https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/best%20websites%20for%20free%20music1640190686306255.jpg");
 object-fit: cover;
 font-family: 'Caveat', cursive;
 height: 70vh;
@@ -117,8 +117,8 @@ position: absolute;
 top:8px;
 left: 4px;
 padding: 5px;
-background-color: rgb(163, 9, 76);
-color: rgb(6, 4, 4);
+background-color: rgb(17, 9, 163);
+color: rgb(255, 255, 255);
 transform: rotate(-20deg)
 }
 
