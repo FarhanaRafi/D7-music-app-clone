@@ -1,107 +1,116 @@
-body{
+body {
     background-image: url("https://images.wallpaperscraft.com/image/single/heart_melody_music_light_88521_1024x768.jpg");
 }
+
 #img-height {
     height: 347px;
     object-fit: cover;
 }
-nav{
-    font-family: 'Caveat', cursive;  
+
+nav {
+    font-family: 'Caveat', cursive;
 }
 
-#nav-logo{
+#nav-logo {
     font-size: 30px;
     color: rgb(0, 179, 255);
 }
 
-.jumbotron{
-background-image: url("https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/best%20websites%20for%20free%20music1640190686306255.jpg");
-object-fit: cover;
-font-family: 'Caveat', cursive;
-height: 70vh;
-background-size: 100% 100%;
-animation: fade ease 2s;
-animation-fill-mode: forwards;
+.jumbotron {
+    background-image: url("https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/best%20websites%20for%20free%20music1640190686306255.jpg");
+    object-fit: cover;
+    font-family: 'Caveat', cursive;
+    height: 70vh;
+    background-size: 100% 100%;
+    animation: fade ease 2s;
+    animation-fill-mode: forwards;
 }
-@keyframes fade{
-0% {
-    opacity: 0;
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
-50% {
-    opacity: 0.5;
-}
-100% {
-    opacity: 1;
-}
-}
+
 .hovereffect {
-width: 100%;
-height: 100%;
-float: left;
-overflow: hidden;
-/* position: relative; */
-/* text-align: center; */
-cursor: default;
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    /* position: relative; */
+    /* text-align: center; */
+    cursor: default;
 }
+
 .hovereffect .overlay {
-width: 100%;
-position: absolute;
-overflow: hidden;
-left: 0;
-top: auto;
-bottom: 0;
-padding: 1em;
-height: 8.25em;
--webkit-transition: -webkit-transform 0.35s;
-transition: transform 0.35s;
--webkit-transform: translate3d(0,100%,0);
-transform: translate3d(0,100%,0);
-visibility: hidden;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    padding: 1em;
+    height: 15.00em;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: hidden;
 
 }
 
 .hovereffect img {
-display: block;
-position: relative;
--webkit-transition: -webkit-transform 0.35s;
-transition: transform 0.35s;
+    display: block;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
 }
 
 .hovereffect:hover img {
--webkit-transform: translate3d(0,-10%,0);
-transform: translate3d(0,-10%,0);
+    background: darkblue;
+    opacity: .25;
+    -webkit-transform: translate3d(0, -10%, 0);
+    transform: translate3d(0, -10%, 0);
 }
 
-.hovereffect h2, 
+.hovereffect h2,
 .hovereffect p {
-color: black;
-text-align: start;
-position: relative;
-font-size: 25px;
-padding: 10px;
-margin: 0px;
-display: inline-block;
+    color: black;
+    text-align: start;
+    position: relative;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
 }
 
 .hovereffect a.info:hover {
-box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #fff;
 }
 
 
 .hovereffect p {
-color: #e3e8ea;
-font-size: 1.4em;
+    color: #e3e8ea;
+    font-size: 1.4em;
 }
 
 
 
 .hovereffect h2,
-.hovereffect p{
--webkit-transition: -webkit-transform 0.35s;
-transition: transform 0.35s;
--webkit-transform: translate3d(0,200%,0);
-transform: translate3d(0,200%,0);
-visibility: visible;
+.hovereffect p {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
+    visibility: visible;
 }
 
 /*  */
@@ -110,25 +119,28 @@ visibility: visible;
 .hovereffect:hover .overlay,
 .hovereffect:hover h2,
 .hovereffect:hover p {
--webkit-transform: translate3d(0,0,0);
-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
-.hovereffect:hover h2,.hovereffect:hover p {
--webkit-transition-delay: 0.05s;
-transition-delay: 0.05s;
+.hovereffect:hover h2,
+.hovereffect:hover p {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
 }
-.card{
-position: relative;
+
+.card {
+    position: relative;
 }
-.card .cardbadge{
-position: absolute;
-top:8px;
-left: 4px;
-padding: 5px;
-background-color: rgb(17, 9, 163);
-color: rgb(255, 255, 255);
-transform: rotate(-20deg)
+
+.card .cardbadge {
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    padding: 5px;
+    background-color: rgb(17, 9, 163);
+    color: rgb(255, 255, 255);
+    transform: rotate(-20deg)
 }
 
 #button {
@@ -138,25 +150,29 @@ transform: rotate(-20deg)
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     color: #f4f4f4;
-  }
-  #button:hover {
+}
+
+#button:hover {
     box-shadow: 0 0 10px 0 #d3efec inset, 0 0 20px 2px #2d4240;
 
-  }
+}
 
-  .delete-btn{
+.delete-btn {
     visibility: hidden;
     opacity: 0;
-  }
+}
+
 tr :hover .delete-btn {
     visibility: visible;
     opacity: 1;
     transition: 0.8s;
-  }
-  .badge-img{
+}
+
+.badge-img {
     position: relative;
-  }
-  #badge-green{
+}
+
+#badge-green {
     height: 13px;
     width: 13px;
     background-color: rgb(54, 194, 61);
@@ -165,4 +181,4 @@ tr :hover .delete-btn {
     bottom: 0;
     right: 9px;
     z-index: 2;
-  }
+}
